@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --bg-color: #44403c;
+  --text-color: #d6d3d1;
+  --change-color: #f5f5f4;
+}
+
+.navbar {
+  background-color: var(--bg-color);
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  text-align: center;
+  padding-left: 30px;
+}
+
+.logo img {
+  width: 80px;
+}
+
+.navbar ul {
+  height: 8vh;
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+}
+
+.navbar ul li {
+  padding: 0 10px;
+  display: inline;
+}
+
+.navbar ul li a {
+  font-family: "Merriweather", serif;
+  text-decoration: none;
+  cursor: pointer;
+  color: var(--text-color);
+}
+
+.navbar ul li a:hover {
+  font-weight: bolder;
+  color: var(--change-color);
+}
+
+.search {
+  padding: 0 15px 0 20px;
+}
+
+.search input {
+  width: 25vw;
+  height: 5vh;
+  padding: 0 5px;
+  font-size: 20px;
+  font-family: "Merriweather", serif;
+  border-radius: 5px;
+}
+
+.btn {
+  background-color: var(--bg-color);
+  color: var(--change-color);
+  font-family: "Merriweather", serif;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.footer {
+  font-family: "Merriweather", serif;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  height: 10vh;
+}
